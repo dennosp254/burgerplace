@@ -3,7 +3,10 @@
 }
 span {
     color: #F6B400;
+    font-family: 'Oleo Script', cursive;
 }
-h1.logo {
-    font-family: 'Oleo Script', cursive;;
+.logo {
+    font-family: 'Oleo Script', cursive;
+    font-size: xxx-large;
+    display: inline-block;
 }
