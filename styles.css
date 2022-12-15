@@ -162,6 +162,7 @@ p {
 }
 #line-heght {
     line-height: 50px;
+    padding-bottom: 30px;
 }
 .value-row:hover {
     box-shadow: 0 0 20px 0px rgba(28, 38, 71, 0.759);
@@ -171,4 +172,18 @@ p {
     .row{
         flex-direction: column;
     }
+}
+.menu-row {
+    flex-basis: 31%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    border: 1px solid #922e00;
+    box-shadow: 0 0 20px 0px rgba(28, 38, 71, 0.759);
+    cursor: pointer;
+}
+.menu-row:hover {
+    box-shadow: 0 0 20px 0px rgba(28, 38, 71, 0.759);
+    cursor: pointer;
 }
